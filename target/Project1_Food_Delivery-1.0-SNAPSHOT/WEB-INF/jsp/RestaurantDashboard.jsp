@@ -154,21 +154,21 @@
                         if(rs2.getFloat("rating") >= 4 && rs2.getFloat("rating") <= 5) {
 
                 %>
-                <br><br><br><h6 style="background-color: #3EC70B; color: white; display: flex; justify-content: center; align-items: center; width: 20%; font-weight: 600; font-size: 2.4em; padding: 20px; margin-left: 30px">
+                <br><br><br><h6 style="background-color: #3EC70B; color: white; display: flex; justify-content: center; align-items: center; width: 30%; font-weight: 600; font-size: 2.4em; padding: 20px; margin-left: 30px">
                     <%= rs2.getString("rating")%><span class="material-symbols-outlined">star</span>
                 </h6>
                 <%
                     } else if(rs2.getFloat("rating") >= 3 && rs2.getFloat("rating") < 4) {
 
                 %>
-                    <br><br><br><h6 style="background-color: #f58305; color: white; display: flex; justify-content: center; align-items: center; width: 20%; font-weight: 600; font-size: 2.4em; padding: 20px; margin-left: 30px">
+                    <br><br><br><h6 style="background-color: #f58305; color: white; display: flex; justify-content: center; align-items: center; width: 30%; font-weight: 600; font-size: 2.4em; padding: 20px; margin-left: 30px">
                     <%= rs2.getString("rating")%><span class="material-symbols-outlined">star</span>
                 </h6>
                 <%
                     } else if(rs2.getFloat("rating") >= 4 && rs2.getFloat("rating") <= 5) {
 
                 %>
-                    <br><br><br><h6 style="background-color: #f50202; color: white; display: flex; justify-content: center; align-items: center; width: 20%; font-weight: 600; font-size: 2.4em; padding: 20px; margin-left: 30px">
+                    <br><br><br><h6 style="background-color: #f50202; color: white; display: flex; justify-content: center; align-items: center; width: 30%; font-weight: 600; font-size: 2.4em; padding: 20px; margin-left: 30px">
                     <%= rs2.getString("rating")%><span class="material-symbols-outlined">star</span>
                 </h6>
                 
@@ -176,7 +176,7 @@
                     }
                 %>
 
-                <h2 style="padding-bottom: 100px; padding-left: 30px; font-weight: 600; font-size: 3em;">Rating</h2>
+                <h2 style="padding-bottom: 100px; padding-left: 30px; font-weight: 600; font-size: 3zem;">Rating</h2>
             </div>
         </div>
     </div>
